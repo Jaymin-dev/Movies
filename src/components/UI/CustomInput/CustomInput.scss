@@ -1,0 +1,22 @@
+input {
+  //needed to increase specificity
+  border-radius: 4px;
+}
+
+.customInput {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  cursor: pointer;
+  width: 100%;
+  &:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+  &:hover {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+}
